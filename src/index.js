@@ -5,7 +5,7 @@ import Footer from "./component/Footer";
 import Body from "./component/Body";
 import App from "./App";
 import * as ReactDOM from "react-dom";
-import Form from "./component/Form";
+import InputForm from "./component/Form";
 import BodyPrint from "./component/BodyPrint";
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/form",
-        element: <Form />,
+        element: <InputForm  />,
       },
       {
         path: "/bodyPrint",
