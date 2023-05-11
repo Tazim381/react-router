@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    column-count: 2;
+    column-gap: 30px;
+    height: 10vh;
+    background-color: aliceblue;
+    align-items: center;
+}
+.navhome{
+    
+}
+
+button{
+    margin-left:50px;
+}
