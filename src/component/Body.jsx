@@ -9,7 +9,6 @@ export default function Body() {
 
   return (
     <div>
-      
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={cardimage} width={'200px'} height={'150px'} />
       <Card.Body>

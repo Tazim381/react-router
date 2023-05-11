@@ -11,8 +11,8 @@ export default function Navbar() {
         <Link to="/form">
           <div>Form</div>
         </Link>
-        <Link to="/form">
-          <div>Download</div>
+        <Link to="/counter">
+          <div>Counter</div>
         </Link>
         <div>Login</div>
         <div>
