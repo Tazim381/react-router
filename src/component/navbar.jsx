@@ -14,10 +14,10 @@ export default function Navbar() {
         <Link to="/counter">
           <div>Counter</div>
         </Link>
-        <div>Login</div>
-        <div>
-          <button>Click me</button>
-        </div>
+        <Link to="/fetchData">
+          <div>Fetch Data </div>
+        </Link>
+        
       </div>
     </div>
   );

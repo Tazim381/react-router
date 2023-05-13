@@ -8,6 +8,7 @@ import * as ReactDOM from "react-dom";
 import InputForm from "./component/Form";
 import BodyPrint from "./component/BodyPrint";
 import Counter from "./component/Counter";
+import FetchData from "./component/FetchData";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/counter",
         element: <Counter/>,
+      },
+      {
+        path: "/fetchdata",
+        element: <FetchData/>,
       },
     ],
   },
