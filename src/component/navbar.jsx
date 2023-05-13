@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="navhome">
-      <div className="nav">
+      <div className="nav px-5">
         <Link to="/">
           <div>Home</div>
         </Link>
@@ -16,6 +16,9 @@ export default function Navbar() {
         </Link>
         <Link to="/fetchData">
           <div>Fetch Data </div>
+        </Link>
+        <Link to="/timer">
+          <div>Timer</div>
         </Link>
         
       </div>

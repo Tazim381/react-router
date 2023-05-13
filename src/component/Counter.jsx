@@ -10,9 +10,13 @@ function Counter() {
     }
     return(
 
-        <div>
+        <div className="text-center d-flex flex-column gap-5" style={{paddingTop:'25vh', paddingBottom:'25vh'}}>
+            <div>
             <button onClick={handleOnclick}>Click me</button>
-            <p style={{color:'green'}}> You clicked  {counter} itmes</p>
+            </div>
+            <div>
+            <h1 style={{color:'green'}}> You clicked  {counter} itmes</h1>
+            </div>
         </div>
         
     )

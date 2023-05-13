@@ -9,6 +9,7 @@ import InputForm from "./component/Form";
 import BodyPrint from "./component/BodyPrint";
 import Counter from "./component/Counter";
 import FetchData from "./component/FetchData/FetchData";
+import Timer from "./component/timer/Timer";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/fetchdata",
         element: <FetchData/>,
+      },
+      {
+        path: "/timer",
+        element: <Timer/>,
       },
     ],
   },

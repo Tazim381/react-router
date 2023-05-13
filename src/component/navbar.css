@@ -1,11 +1,19 @@
 .nav{
     display: flex;
-    column-gap: 20px;
+    column-gap: 50px;
     height: 10vh;
     background-color: aliceblue;
     align-items: center;
 }
+a{
+    text-decoration: none;
+}
 
+a:hover {
+    font-size:20px;
+    font-weight: 500;
+    color: green;
+}
 
 button{
     margin-left:50px;
